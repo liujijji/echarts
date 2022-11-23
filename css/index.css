@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+.border_tu {
+  border: 1px solid  transparent;
+  /* 边框图片路径 */
+  border-image-source: url(../images/border.png);
+  /* 如何切割 不用带单位 */
+  border-image-slice: 51 38 20 132;
+  border-image-width: 44px 40px 23px 131px;
+  /* 平铺 */
+  border-image-repeat: repeat;
+}
+.box {
+  max-width: 2560px;
+  min-width: 1024px;
+  min-height: 10rem;
+  display: flex;
+  background: url(../images/logo.png) no-repeat -0.1rem 0;
+  background-size: contain;
+  padding: 1rem 0.25rem 0;
+}
+.box .left {
+  flex: 3;
+}
+.box .left .left1 {
+  width: 100%;
+  height: 1.25em;
+}
+.box .left .left1 ul {
+  width: 90%;
+  height: 1.25em;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.box .left .left1 ul li {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+}
+.box .left .left1 ul li > a {
+  font-size: 0.325rem;
+  color: white;
+}
+.box .left .left1 ul li > div {
+  font-size: 0.15rem;
+}
+.box .left .left1 ul li > div > span {
+  display: inline-block;
+  width: 0.0375rem;
+  height: 0.125rem;
+  border-radius: 0.0375rem;
+}
+.box .left .left1 ul li > div > a {
+  color: #218CFD;
+}
+.box .left .left2 {
+  width: 100%;
+  height: 4.5rem;
+  margin-top: 0.3rem;
+  /*  标题部分
+             class='ma'是默认样式*/
+}
+.box .left .left2 .malfunction {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0.3rem 0;
+  /* 中间部分 */
+  /* 动画部分 */
+}
+.box .left .left2 .malfunction .malfun {
+  width: 100%;
+  height: 0.375rem;
+  display: flex;
+  line-height: 0.375rem;
+}
+.box .left .left2 .malfunction .malfun a {
+  color: #1349C0;
+}
+.box .left .left2 .malfunction .malfun > a:nth-of-type(1) {
+  width: 35%;
+  font-size: 0.2rem;
+}
+.box .left .left2 .malfunction .malfun .ma {
+  color: white;
+}
+.box .left .left2 .malfunction .malfun > span {
+  width: 0.04rem;
+  height: 0.4rem;
+  margin-right: 20px;
+}
+.box .left .left2 .malfunction .malfun > a:nth-of-type(2) {
+  width: 35%;
+  font-size: 0.2rem;
+}
+.box .left .left2 .malfunction .fault {
+  width: 100%;
+  height: 0.375rem;
+  line-height: 0.375rem;
+  display: flex;
+  color: #68d8fe;
+  margin-top: 0.0725rem;
+  background-color: #1A3158;
+  font-size: 0.15rem;
+}
+.box .left .left2 .malfunction .fault > span:nth-of-type(1) {
+  width: 25%;
+}
+.box .left .left2 .malfunction .fault > span:nth-of-type(2) {
+  width: 55%;
+}
+.box .left .left2 .malfunction .fault > span:nth-of-type(3) {
+  width: 20%;
+}
+.box .left .left2 .malfunction .disp {
+  display: none;
+}
+.box .left .left2 .malfunction .animation {
+  width: 100%;
+  height: 3.13rem;
+  /* 溢出隐藏 */
+  overflow: hidden;
+}
+.box .left .left2 .malfunction .animation ul {
+  width: 100%;
+  height: 100%;
+  animation: shang linear 8s infinite;
+}
+.box .left .left2 .malfunction .animation ul li {
+  width: 100%;
+  height: 0.35rem;
+  font-size: 0.15rem;
+  line-height: 0.35rem;
+  color: #218CFD;
+  display: flex;
+}
+.box .left .left2 .malfunction .animation ul li > span:nth-of-type(1) {
+  width: 25%;
+}
+.box .left .left2 .malfunction .animation ul li > span:nth-of-type(2) {
+  width: 55%;
+}
+.box .left .left2 .malfunction .animation ul li > span:nth-of-type(3) {
+  width: 20%;
+}
+@keyframes shang {
+  100% {
+    transform: translateY(-40%);
+  }
+}
+.box .left .left3 {
+  width: 100%;
+  height: 3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem 0;
+}
+.box .left .left3 .layout {
+  width: 90%;
+  margin: 0rem auto;
+}
+.box .left .left3 .layout .layout1 {
+  width: 100%;
+  height: 0.375rem;
+  line-height: 0.375rem;
+  font-size: 0.2rem;
+  color: white;
+}
+.box .left .left3 .layout .limian {
+  width: 100%;
+  height: 2.175rem;
+  display: flex;
+}
+.box .left .left3 .layout .limian .distribute {
+  width: 65%;
+}
+.box .left .left3 .layout .limian .statistics {
+  width: 35%;
+  background: url(../images/rect.png) no-repeat -0.075rem 0;
+  background-size: cover;
+  padding: 0.25rem 0.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box .left .left3 .layout .limian .statistics .num {
+  width: 100%;
+  height: 0.625rem;
+}
+.box .left .left3 .layout .limian .statistics .num p {
+  color: wheat;
+  font-size: 0.2rem;
+}
+.box .left .left3 .layout .limian .statistics .num > .num1 {
+  width: 100%;
+  height: 20px;
+  background-color: red;
+}
+.box .left .left3 .layout .limian .statistics .num > .num1 > span:nth-of-type(1) {
+  display: inline-block;
+  width: 0.0375rem;
+  height: 0.0625rem;
+}
+.box .left .left3 .layout .limian .statistics .num > .num1 > span:nth-of-type(2) {
+  font-size: 0.15rem;
+  color: #F8AB05;
+}
+.box .center {
+  flex: 4;
+  margin: 0rem 0.2rem 0;
+}
+.box .right {
+  flex: 3;
+}
