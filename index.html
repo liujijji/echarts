@@ -326,16 +326,93 @@
                 </div>
             </div>
             <!-- 销售额统计 -->
-            <div class="statistics1 border_tu"></div>
+            <div class="statistics1 border_tu">
+                <!-- 版心-->
+                <div class="statist">
+                    <!-- 销售额统计 -->
+                    <div class="sell">
+                        <p>销售额统计</p>
+                        <span></span>
+                        <ul>
+                            <li>
+                                <a class="a2 a1" data-time="year">年</a>
+                            </li>
+                            <li>
+                                <a class="a2" data-time="quarter">季</a>
+                            </li>
+                            <li>
+                                <a class="a2" data-time="month">月</a>
+                            </li>
+                            <li>
+                                <a class="a2" data-time="week">周</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 折现图 -->
+                    <div class="discounting"></div>
+                </div>
+            </div>
             <!-- 渠道分布与 一季度销售进度-->
             <div class="channel">
                 <!-- 渠道分布 -->
-                <div class="channel1 border_tu"></div>
+                <div class="channel1 border_tu">
+                    <!-- 版心 -->
+                    <div class="chann">
+                        <div class="trench">
+                            <p>渠道分布 </p>
+                        </div>
+                        <!-- 雷达图部分 -->
+                        <div class="radar"></div>
+                    </div>
+                </div>
                 <!--一季度销售进度  -->
-                <div class="market border_tu"></div>
+                <div class="market border_tu">
+                    <!-- 版心 -->
+                    <div class="mark">
+                        <!-- 一季度销售进度 -->
+                        <div class="bnox2">
+                            <p>一季度销售进度</p>
+                        </div>
+                        <div class="abi">
+                            <span>75</span> %
+                        </div>
+                        <div class="abo">
+                            <span>1,321
+                               150%</span>
+                        </div>
+                        <div class="indent">
+                            <p><span style="background-color:#6ACCA3;"></span>&nbsp;销售额(万)</p>
+                            <p><span style="background-color:#ED3F35;"></span>&nbsp;同比增长</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- 完成进度统计 -->
-            <div class="accomplish border_tu"></div>
+            <div class="accomplish border_tu">
+                <!-- 版心 -->
+                <div class="accompl">
+                    <!-- 第一行 -->
+                    <div class="statistic">
+                        <p>完成进度统计 </p>
+                    </div>
+                    <!-- 水球及   -->
+                    <div class="water">
+                        <!-- 左 -->
+                        <div class="water1"></div>
+                        <!-- 右 -->
+                        <div class="water2">
+                            <div class="stat">
+                                <p>800,0万</p>
+                                <p><span style="background-color: #ED3F35;"></span>计划收入</p>
+                            </div>
+                            <div class="stat">
+                                <p>544,0万</p>
+                                <p><span style="background-color: #EACF19;"></span>完成收入</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
@@ -348,3 +425,9 @@
 <!-- 地图 -->
 <script src="./js/china.js"></script>
 <script src="./js/plat.js"></script>
+
+
+<!-- 水球 -->
+<!-- 必须先引入依赖  -->
+<script src="./js/echarts-liquidfill.min.js"></script>
+<script src="./js/water.js"></script>

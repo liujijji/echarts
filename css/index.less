@@ -414,6 +414,54 @@ body{
             width: 100%;
             height: 2.375rem;
             margin-top: .25rem;
+            .statist{
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                // 第一行
+                .sell{
+                    width: 100%;
+                    height: .4375rem;
+                    line-height: .4375rem;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        font-size: .2rem;
+                        color: white;
+                    }
+                    span{
+                        display: inline-block;
+                        width: .025rem;
+                        height: .1875rem;
+                        margin:0 .125rem ;
+                        margin-left: .25rem;
+                        background-color: #00F2F1;
+                    }
+                    ul{
+                        display: flex;
+                        width: 60%;
+                        li{
+                          width: 25%;
+                            font-size: .175rem;
+                            text-align: center;
+                            a{
+                                color: #0BACE6;
+                            }
+                            .a1{
+                                color: white;
+                                padding: .0375rem;
+                                border-radius: .0375rem;
+                                background-color: #4C9BFD;
+                            }
+                        }
+                    }
+                }
+                // 折线图
+                .discounting{
+                    width: 100%;
+                    height: 1.675rem;
+                }
+            }
         }
         /*渠道分布与 一季度销售进度  */
         .channel{
@@ -425,10 +473,83 @@ body{
             .channel1{
                 width: 55%;
                 margin-right: 3%;
+                // 版心
+                .chann{
+                    width:90%;
+                    height: 100%;
+                    margin: 0 auto;
+                    // 第一行  渠道分布
+                    .trench{
+                        width: 100%;
+                        height: .4375rem;
+                        line-height: .4375rem;
+                        font-size: .2rem;
+                        color: white;
+                        p{
+                            padding-left: .125rem;
+                        }
+                    }
+                    /* 雷达图部分 */
+                    .radar{
+                        width: 100%;
+                        height: 1.55rem;
+                    }
+                }
             }
             /* 一季度销售进度 */
             .market{
                 width: 42%;
+                // 版心
+                .mark{
+                    width: 90%;
+                    height: 100%;
+                    margin: 0 auto;
+                    .bnox2{
+                        width: 100%;
+                        height: .4375rem;
+                        line-height: .4375rem;
+                        font-size: .2rem;
+                        color: white;
+                        text-align: center;
+                    }
+                    .abi{
+                        width: 100%;
+                        height: .625rem;
+                        margin: .125rem 0;
+                        font-size: .2rem;
+                        color: white;
+                        text-align: center;
+                        line-height: .625rem;
+                        span{
+                            font-size: .35rem;
+                        }
+                    }
+                    .abo{
+                        font-size: .275rem;
+                        text-align: center;
+                        color: white;
+                        height: .5rem;
+                     line-height: .5rem;
+                    }
+                    .indent{
+                        width: 100%;
+                        height: .25rem;
+                        line-height: .25rem;
+                        font-size: .15rem;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            width: 50%;
+                            color: #4CFDE2;
+                            span{
+                                display: inline-block;
+                                width: .0375rem;
+                                height: .125rem;
+                                border-radius: .0375rem;
+                            }
+                        }
+                    }
+                }
             }
         }
         /*  完成进度统计  */
@@ -436,6 +557,63 @@ body{
             width: 100%;
             height: 2.525rem;
             margin-top: .25rem;
+            .accompl{
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+               .statistic{
+                width: 100%;
+                height: .4375rem;
+                line-height: 35px;
+                font-size: .2rem;
+                p{
+                    color: white;
+                    padding-left: .0625rem;
+                }
+               }
+               /*水球 */
+               .water{
+                width: 100%;
+                height: 1.85rem;
+                display: flex;
+            //    左
+            .water1{
+                width: 65%;
+                
+            }
+            // 右
+            .water2{
+                width: 35%;
+                background: url(../images/rect.png) no-repeat  0px 0px;
+                background-size: 95% 100%;
+                padding: .25rem .125rem;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: space-evenly;
+               .stat{
+                width: 80%;
+                height: .625rem;
+                &>p:nth-of-type(1){
+                    font-size: .225rem;
+                    color: white;
+                }
+                &>p:nth-of-type(2){
+                    font-size: .15rem;
+                    color: #F8AB05;
+                span{
+                        display:inline-block;
+                        width: .0375rem;
+                        height: .125rem;
+                        border-radius: .0375rem;
+                        margin-top: .0375rem;
+                        margin-right: .0625rem;
+                    }
+                }
+            }
+               }
+            }
         }
+    }
     }
 }

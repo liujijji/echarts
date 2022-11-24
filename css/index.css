@@ -391,6 +391,52 @@ body {
   height: 2.375rem;
   margin-top: 0.25rem;
 }
+.box .right .statistics1 .statist {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.box .right .statistics1 .statist .sell {
+  width: 100%;
+  height: 0.4375rem;
+  line-height: 0.4375rem;
+  display: flex;
+  align-items: center;
+}
+.box .right .statistics1 .statist .sell p {
+  font-size: 0.2rem;
+  color: white;
+}
+.box .right .statistics1 .statist .sell span {
+  display: inline-block;
+  width: 0.025rem;
+  height: 0.1875rem;
+  margin: 0 0.125rem;
+  margin-left: 0.25rem;
+  background-color: #00F2F1;
+}
+.box .right .statistics1 .statist .sell ul {
+  display: flex;
+  width: 60%;
+}
+.box .right .statistics1 .statist .sell ul li {
+  width: 25%;
+  font-size: 0.175rem;
+  text-align: center;
+}
+.box .right .statistics1 .statist .sell ul li a {
+  color: #0BACE6;
+}
+.box .right .statistics1 .statist .sell ul li .a1 {
+  color: white;
+  padding: 0.0375rem;
+  border-radius: 0.0375rem;
+  background-color: #4C9BFD;
+}
+.box .right .statistics1 .statist .discounting {
+  width: 100%;
+  height: 1.675rem;
+}
 .box .right .channel {
   width: 100%;
   height: 2.25rem;
@@ -403,11 +449,135 @@ body {
   width: 55%;
   margin-right: 3%;
 }
+.box .right .channel .channel1 .chann {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  /* 雷达图部分 */
+}
+.box .right .channel .channel1 .chann .trench {
+  width: 100%;
+  height: 0.4375rem;
+  line-height: 0.4375rem;
+  font-size: 0.2rem;
+  color: white;
+}
+.box .right .channel .channel1 .chann .trench p {
+  padding-left: 0.125rem;
+}
+.box .right .channel .channel1 .chann .radar {
+  width: 100%;
+  height: 1.55rem;
+}
 .box .right .channel .market {
   width: 42%;
+}
+.box .right .channel .market .mark {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.box .right .channel .market .mark .bnox2 {
+  width: 100%;
+  height: 0.4375rem;
+  line-height: 0.4375rem;
+  font-size: 0.2rem;
+  color: white;
+  text-align: center;
+}
+.box .right .channel .market .mark .abi {
+  width: 100%;
+  height: 0.625rem;
+  margin: 0.125rem 0;
+  font-size: 0.2rem;
+  color: white;
+  text-align: center;
+  line-height: 0.625rem;
+}
+.box .right .channel .market .mark .abi span {
+  font-size: 0.35rem;
+}
+.box .right .channel .market .mark .abo {
+  font-size: 0.275rem;
+  text-align: center;
+  color: white;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.box .right .channel .market .mark .indent {
+  width: 100%;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  font-size: 0.15rem;
+  display: flex;
+  align-items: center;
+}
+.box .right .channel .market .mark .indent p {
+  width: 50%;
+  color: #4CFDE2;
+}
+.box .right .channel .market .mark .indent p span {
+  display: inline-block;
+  width: 0.0375rem;
+  height: 0.125rem;
+  border-radius: 0.0375rem;
 }
 .box .right .accomplish {
   width: 100%;
   height: 2.525rem;
   margin-top: 0.25rem;
+}
+.box .right .accomplish .accompl {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  /*水球 */
+}
+.box .right .accomplish .accompl .statistic {
+  width: 100%;
+  height: 0.4375rem;
+  line-height: 35px;
+  font-size: 0.2rem;
+}
+.box .right .accomplish .accompl .statistic p {
+  color: white;
+  padding-left: 0.0625rem;
+}
+.box .right .accomplish .accompl .water {
+  width: 100%;
+  height: 1.85rem;
+  display: flex;
+}
+.box .right .accomplish .accompl .water .water1 {
+  width: 65%;
+}
+.box .right .accomplish .accompl .water .water2 {
+  width: 35%;
+  background: url(../images/rect.png) no-repeat 0px 0px;
+  background-size: 95% 100%;
+  padding: 0.25rem 0.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box .right .accomplish .accompl .water .water2 .stat {
+  width: 80%;
+  height: 0.625rem;
+}
+.box .right .accomplish .accompl .water .water2 .stat > p:nth-of-type(1) {
+  font-size: 0.225rem;
+  color: white;
+}
+.box .right .accomplish .accompl .water .water2 .stat > p:nth-of-type(2) {
+  font-size: 0.15rem;
+  color: #F8AB05;
+}
+.box .right .accomplish .accompl .water .water2 .stat > p:nth-of-type(2) span {
+  display: inline-block;
+  width: 0.0375rem;
+  height: 0.125rem;
+  border-radius: 0.0375rem;
+  margin-top: 0.0375rem;
+  margin-right: 0.0625rem;
 }

@@ -150,6 +150,7 @@
     // 添加航班
     var LSData = [
         [{ name: '拉萨' }, { name: '海口', value: 100 }],
+        [{ name: '海口' }, { name: '拉萨', value: 100 }],
         [{ name: '拉萨' }, { name: '乌鲁木齐', value: 100 }],
         [{ name: '乌鲁木齐' }, { name: '西安', value: 100 }],
         [{ name: '乌鲁木齐' }, { name: '西宁', value: 100 }],
